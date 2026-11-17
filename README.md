@@ -4,6 +4,16 @@ I was working with pendulum equations and wanted to understand how their mathema
 
 That's how I came up with **Pendulum Equation Solver**. The idea was to make working with pendulum equations easier by turning the mathematical calculations into something that could be solved and explored through code.
 
+## How It Works
+
+The inverted pendulum system is based on the relationship between the cart, pendulum, and the forces acting on them.
+
+The following diagram illustrates the system, its input parameters, governing equations, and calculated outputs.
+
+<p align="center">
+  <img src="assets/Inverted Pendulum Control Infographic.png" alt="Inverted Pendulum System" width="850"/>
+</p>
+
 ## Features
 
 - **Realistic Physics**: Implements the equations of motion for an inverted pendulum using Runge-Kutta 4th order numerical integration
@@ -33,16 +43,6 @@ npm run dev
 npm run build
 npm start
 ```
-
-## How It Works
-
-The inverted pendulum system is based on the relationship between the cart, pendulum, and the forces acting on them.
-
-The following diagram illustrates the system, its input parameters, governing equations, and calculated outputs.
-
-<p align="center">
-  <img src="assets/Inverted Pendulum Control Infographic.png" alt="Inverted Pendulum System" width="850"/>
-</p>
 
 ### Physics Simulation
 
