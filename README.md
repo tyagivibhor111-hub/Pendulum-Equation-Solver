@@ -92,7 +92,3 @@ Default gains (Kp=100, Ki=1, Kd=50) provide stable control, but you can adjust t
 - **TypeScript**: Type-safe development
 - **Tailwind CSS**: Utility-first styling
 - **HTML Canvas**: High-performance rendering
-
-## License
-
-MIT
